@@ -1,0 +1,192 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   '--verbose',
+1 verbose cli   'chai-as-promised' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'chai-as-promised', null ]
+7 verbose cache add spec chai-as-promised
+8 silly cache add parsed spec { raw: 'chai-as-promised',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'chai-as-promised',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed chai-as-promised@*
+10 verbose addNamed "*" is a valid semver range for chai-as-promised
+11 silly addNameRange { name: 'chai-as-promised', range: '*', hasData: false }
+12 silly mapToRegistry name chai-as-promised
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/chai-as-promised
+16 verbose addNameRange registry:https://registry.npmjs.org/chai-as-promised not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/chai-as-promised
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 10:38:17 AM
+20 verbose request id e842217a6a3cb5ad
+21 http request GET https://registry.npmjs.org/chai-as-promised
+22 http 200 https://registry.npmjs.org/chai-as-promised
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"B24HZNOEP0PD7RMFDF1NQLCLO"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '44398',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Tue, 11 Aug 2015 07:38:18 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '53',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-lcy1125-LCY',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1439278698.336089,VS0,VE0',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving chai-as-promised to /Users/sergey/.npm/registry.npmjs.org/chai-as-promised/.cache.json
+25 silly addNameRange number 2 { name: 'chai-as-promised', range: '*', hasData: true }
+26 silly addNameRange versions [ 'chai-as-promised',
+26 silly addNameRange   [ '1.0.0',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.2.0',
+26 silly addNameRange     '3.0.0',
+26 silly addNameRange     '3.1.0',
+26 silly addNameRange     '3.2.0',
+26 silly addNameRange     '3.2.1',
+26 silly addNameRange     '3.2.2',
+26 silly addNameRange     '3.2.3',
+26 silly addNameRange     '3.2.4',
+26 silly addNameRange     '3.2.5',
+26 silly addNameRange     '3.3.0',
+26 silly addNameRange     '3.3.1',
+26 silly addNameRange     '4.0.0',
+26 silly addNameRange     '4.1.0',
+26 silly addNameRange     '4.1.1',
+26 silly addNameRange     '4.2.0',
+26 silly addNameRange     '4.3.0',
+26 silly addNameRange     '5.0.0',
+26 silly addNameRange     '5.1.0' ] ]
+27 silly addNamed chai-as-promised@5.1.0
+28 verbose addNamed "5.1.0" is a plain semver version for chai-as-promised
+29 silly mapToRegistry name chai-as-promised
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/chai-as-promised
+33 verbose addRemoteTarball https://registry.npmjs.org/chai-as-promised/-/chai-as-promised-5.1.0.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/chai-as-promised/-/chai-as-promised-5.1.0.tgz',
+34 verbose addRemoteTarball   'a95e7b5465123db538ddb36e3163c7be3a63f4ff' ]
+35 info retry fetch attempt 1 at 10:38:18 AM
+36 info attempt registry request try #1 at 10:38:18 AM
+37 http fetch GET https://registry.npmjs.org/chai-as-promised/-/chai-as-promised-5.1.0.tgz
+38 http fetch 200 https://registry.npmjs.org/chai-as-promised/-/chai-as-promised-5.1.0.tgz
+39 silly fetchAndShaCheck shasum a95e7b5465123db538ddb36e3163c7be3a63f4ff
+40 verbose addTmpTarball /var/folders/_g/3ypywtp12y727vt80d9tqs2r0000gn/T/npm-17170-dd331914/registry.npmjs.org/chai-as-promised/-/chai-as-promised-5.1.0.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for chai-as-promised@5.1.0
+42 silly cache afterAdd chai-as-promised@5.1.0
+43 verbose afterAdd /Users/sergey/.npm/chai-as-promised/5.1.0/package/package.json not in flight; writing
+44 verbose afterAdd /Users/sergey/.npm/chai-as-promised/5.1.0/package/package.json written
+45 silly install resolved [ { name: 'chai-as-promised',
+45 silly install resolved     description: 'Extends Chai with assertions about promises.',
+45 silly install resolved     keywords: [ 'chai', 'testing', 'assertions', 'promises', 'promises-aplus' ],
+45 silly install resolved     version: '5.1.0',
+45 silly install resolved     author:
+45 silly install resolved      { name: 'Domenic Denicola',
+45 silly install resolved        email: 'd@domenic.me',
+45 silly install resolved        url: 'https://domenic.me' },
+45 silly install resolved     license: 'WTFPL',
+45 silly install resolved     repository:
+45 silly install resolved      { type: 'git',
+45 silly install resolved        url: 'git+https://github.com/domenic/chai-as-promised.git' },
+45 silly install resolved     main: './lib/chai-as-promised.js',
+45 silly install resolved     files: [ 'lib' ],
+45 silly install resolved     scripts:
+45 silly install resolved      { test: 'npm run test-plugin && npm run test-intercompatibility',
+45 silly install resolved        'test-plugin': 'mocha',
+45 silly install resolved        'test-intercompatibility': 'mocha test-intercompatibility --opts test-intercompatibility/mocha.opts',
+45 silly install resolved        'test-browser-q': 'coffee ./test/browser/runner.coffee q',
+45 silly install resolved        'test-browser-when': 'coffee ./test/browser/runner.coffee when',
+45 silly install resolved        lint: 'jshint ./lib',
+45 silly install resolved        cover: 'istanbul cover node_modules/mocha/bin/_mocha && opener ./coverage/lcov-report/lib/chai-as-promised.js.html' },
+45 silly install resolved     peerDependencies: { chai: '>= 2.1.2 < 4' },
+45 silly install resolved     devDependencies:
+45 silly install resolved      { chai: '^3.0.0',
+45 silly install resolved        'coffee-script': '1.9.0',
+45 silly install resolved        istanbul: '0.3.5',
+45 silly install resolved        ecstatic: '0.5.8',
+45 silly install resolved        glob: '^4.3.5',
+45 silly install resolved        jshint: '^2.6.0',
+45 silly install resolved        mocha: '^1.21.5',
+45 silly install resolved        opener: '^1.4.0',
+45 silly install resolved        q: '^1.1.2',
+45 silly install resolved        underscore: '1.7.0' },
+45 silly install resolved     gitHead: '5f20e6c8d2297cb0287b71704ae0366492ce1a01',
+45 silly install resolved     bugs: { url: 'https://github.com/domenic/chai-as-promised/issues' },
+45 silly install resolved     homepage: 'https://github.com/domenic/chai-as-promised#readme',
+45 silly install resolved     _id: 'chai-as-promised@5.1.0',
+45 silly install resolved     _shasum: 'a95e7b5465123db538ddb36e3163c7be3a63f4ff',
+45 silly install resolved     _from: 'chai-as-promised@*',
+45 silly install resolved     _npmVersion: '2.9.0',
+45 silly install resolved     _nodeVersion: '2.0.2',
+45 silly install resolved     _npmUser: { name: 'domenic', email: 'd@domenic.me' },
+45 silly install resolved     maintainers: [ [Object] ],
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: 'a95e7b5465123db538ddb36e3163c7be3a63f4ff',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/chai-as-promised/-/chai-as-promised-5.1.0.tgz' },
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/chai-as-promised/-/chai-as-promised-5.1.0.tgz' } ]
+46 info install chai-as-promised@5.1.0 into /usr/local/lib
+47 info installOne chai-as-promised@5.1.0
+48 verbose installOne of chai-as-promised to /usr/local/lib not in flight; installing
+49 verbose lock using /Users/sergey/.npm/_locks/chai-as-promised-18ed5918de987300.lock for /usr/local/lib/node_modules/chai-as-promised
+50 silly install write writing chai-as-promised 5.1.0 to /usr/local/lib/node_modules/chai-as-promised
+51 verbose unbuild lib/node_modules/chai-as-promised
+52 silly gentlyRm /usr/local/lib/node_modules/chai-as-promised is being purged from base /usr/local
+53 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/chai-as-promised
+54 verbose tar unpack /Users/sergey/.npm/chai-as-promised/5.1.0/package.tgz
+55 verbose tar unpacking to /usr/local/lib/node_modules/chai-as-promised
+56 silly gentlyRm /usr/local/lib/node_modules/chai-as-promised is being purged
+57 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/chai-as-promised
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 error tar.unpack untar error /Users/sergey/.npm/chai-as-promised/5.1.0/package.tgz
+60 verbose unlock done using /Users/sergey/.npm/_locks/chai-as-promised-18ed5918de987300.lock for /usr/local/lib/node_modules/chai-as-promised
+61 verbose fstream_path /usr/local/lib/node_modules/chai-as-promised
+62 verbose fstream_type Directory
+63 verbose fstream_class DirWriter
+64 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/chai-as-promised'
+64 verbose stack     at Error (native)
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+65 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+66 verbose cwd /Users/sergey/Documents/Selenium-tests
+67 error Darwin 14.4.0
+68 error argv "node" "/usr/local/bin/npm" "install" "--global" "--verbose" "chai-as-promised"
+69 error node v0.12.7
+70 error npm  v2.11.3
+71 error path /usr/local/lib/node_modules/chai-as-promised
+72 error code EACCES
+73 error errno -13
+74 error Error: EACCES, mkdir '/usr/local/lib/node_modules/chai-as-promised'
+74 error     at Error (native)
+74 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/chai-as-promised']
+74 error   errno: -13,
+74 error   code: 'EACCES',
+74 error   path: '/usr/local/lib/node_modules/chai-as-promised',
+74 error   fstream_type: 'Directory',
+74 error   fstream_path: '/usr/local/lib/node_modules/chai-as-promised',
+74 error   fstream_class: 'DirWriter',
+74 error   fstream_stack:
+74 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+74 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+74 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+75 error Please try running this command again as root/Administrator.
+76 verbose exit [ -13, true ]
+77 verbose unbuild lib/node_modules/chai-as-promised
+78 silly gentlyRm /usr/local/lib/node_modules/chai-as-promised is being purged from base /usr/local
+79 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/chai-as-promised
